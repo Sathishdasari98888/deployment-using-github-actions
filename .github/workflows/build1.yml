@@ -28,4 +28,4 @@ jobs:
           docker login -u ${{ secrets.Dockerhub_username }} -p ${{ secrets.Dockerhub_token }}
           docker push sathishdasari/swiggy-clone:latest
         env:
-          DOCKER_CLI_ACI: 1    
+          DOCKER_CLI_ACI: 1
